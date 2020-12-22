@@ -48,8 +48,8 @@ const UserMenuWrapper = connectToFlags(
   const { t } = useTranslation();
   const actions = [];
   const manageAccount = e => {
-    // console.log('manageAccount');
-    window.open(props.keycloak.createAccountUrl());
+    // window.open(props.keycloak.createAccountUrl());
+    window.open(window.SERVER_FLAGS.TmaxCloudPortalURL + '#!/mypage/setting/privacy');
   };
   const logout = e => {
     console.log('logout');

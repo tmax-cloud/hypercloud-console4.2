@@ -51,4 +51,5 @@ KUBEFLOW_PORT=80
     --keycloak-realm=tmax \
     --keycloak-auth-url=https://172.22.6.11/auth \
     --keycloak-client-id=hypercloud4 \
+    --tmaxcloud-portal=https://portal.tmaxcloud.ck2/ \
     --release-mode=true \
